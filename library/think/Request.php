@@ -984,8 +984,6 @@ class Request
             // 解析name
             if (strpos($name, '/')) {
                 list($name, $type) = explode('/', $name);
-            } else {
-                $type = 's';
             }
             // 按.拆分成多维数组进行判断
             foreach (explode('.', $name) as $val) {
