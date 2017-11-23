@@ -1,5 +1,5 @@
 {
-    "name": "topthink/framework",
+    "name": "hausir/framework",
     "description": "the new thinkphp framework",
     "type": "think-framework",
     "keywords": [
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/think-installer": "~1.0"
+        "hausir/think-installer": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.8.*",
